@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            margin-top: 100px;
+            margin-left: 100px;
+            position:absolute;
+            /* rotate: 180deg; */
+            /* transition: all 1s ease-in; */
+            /* animation-name: coloranimation;
+            animation-duration: 2s;
+            animation-delay: 0ms;
+            animation-direction: reverse;
+            animation-iteration-count: infinite; */
+            animation: coloranimation 2s ease-in 0s infinite normal;
+
+        }
+        @keyframes coloranimation {
+            0%{ left:0px;}
+            50%{background-color: blue;}
+            100%{background-color: brown;  left:200px}
+        }
+            
+        /* div:hover{
+             /* transform: translate(200px,100px); */
+             /* transform: skew(20deg);
+        } */ 
+
+    </style>
+</head>
+<body>
+    <div> this is a box</div>
+    
+</body>
+</html>
